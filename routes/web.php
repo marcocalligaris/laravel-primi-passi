@@ -17,3 +17,7 @@ Route::get('/', function () {
     $data = ['title' => 'Ritorno al futuro', 'genre' => 'Sci-Fi', 'year' => '1985', 'director' => 'Robert Zemeckis'];
     return view('home', $data);
 });
+
+Route::get('/series', function () {
+    return view('series.series');
+});
