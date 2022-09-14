@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $data = ['title' => 'Ritorno al futuro', 'genre' => 'Sci-Fi', 'year' => '1985', 'director' => 'Robert Zemeckis'];
+    return view('home', $data);
 });

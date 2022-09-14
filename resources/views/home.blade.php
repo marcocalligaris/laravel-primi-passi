@@ -7,6 +7,9 @@
     <title>My Home</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h2>Titolo: {{ $title }}</h2>
+    <h3>Regista: {{ $director }}</h3>
+    <p>Genere: {{ $genre }}</p>
+    <p>Anno: {{ $year }}</p>
 </body>
 </html>
